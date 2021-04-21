@@ -1,0 +1,140 @@
+package: testproject
+import:
+  - package: github.com/go-sql-driver/mysql
+  - package: github.com/patrickmn/go-cache
+  - package: gopkg.in/gcfg.v1
+  - package: gopkg.in/warnings.v0
+  - package: git.pubmatic.com/PubMatic/go-common
+    vcs: git
+  - package: github.com/PubMatic-OpenWrap/prebid-server
+  - package: github.com/prebid/prebid-server
+    repo: git@github.com:sachin-pubmatic/prebid-server.git
+    vcs: git
+  - package: github.com/go-test/deep
+  - package: github.com/blang/semver
+  - package: github.com/buger/jsonparser
+  - package: github.com/cespare/xxhash
+  - package: github.com/DATA-DOG/go-sqlmock
+  - package: github.com/evanphx/json-patch
+  - package: github.com/fsnotify/fsnotify
+  - package: github.com/golang/glog
+  - package: github.com/chasex/glog
+  - package: github.com/rs/vast
+  - package: github.com/PubMatic-OpenWrap/openrtb/
+    subpackages:
+      - native
+      - native/request
+  - package: github.com/prebid/go-gdpr/
+    version: ~v0.8.2
+  - package: github.com/golang/protobuf
+    subpackages:
+      - proto
+  - package: github.com/hashicorp/hcl
+    subpackages:
+      - hcl/ast
+      - hcl/parser
+      - hcl/printer
+      - hcl/scanner
+      - hcl/strconv
+      - hcl/token
+      - json/parser
+      - json/scanner
+      - json/token
+  - package: github.com/influxdata/influxdb
+    subpackages:
+      - client
+      - models
+      - pkg/escape
+  - package: github.com/julienschmidt/httprouter
+    version: ~1.1.0
+  - package: github.com/rcrowley/go-metrics
+  - package: github.com/spf13/viper
+  - package: github.com/vrischmann/go-metrics-influxdb
+  - package: github.com/magiconair/properties
+    subpackages:
+      - assert
+  - package: github.com/pelletier/go-toml
+  - package: github.com/sergi/go-diff
+    subpackages:
+      - diffmatchpatch
+  - package: github.com/prometheus/client_golang
+    subpackages:
+      - prometheus
+      - prometheus/promhttp
+  - package: github.com/prometheus/client_model
+    subpackages:
+      - go
+  - package: github.com/prometheus/common
+    subpackages:
+      - expfmt
+      - internal/bitbucket.org/ww/goautoneg
+      - model
+  - package: github.com/prometheus/procfs
+    subpackages:
+      - internal/util
+      - nfs
+      - xfs
+  - package: github.com/spf13/afero
+    subpackages:
+      - mem
+  - package: github.com/spf13/cast
+  - package: github.com/spf13/jwalterweatherman
+  - package: github.com/spf13/pflag
+  - package: github.com/xeipuuv/gojsonreference
+  - package: github.com/yudai/gojsondiff
+    subpackages:
+      - formatter
+  - package: github.com/yudai/golcs
+  - package: github.com/xeipuuv/gojsonpointer
+  - package: github.com/mitchellh/mapstructure
+  - package: github.com/mssola/user_agent
+  - package: github.com/xeipuuv/gojsonschema
+  - package: golang.org/x/sys
+    subpackages:
+      - unix
+  - package: golang.org/x/net
+    subpackages:
+      - publicsuffix
+  - package: golang.org/x/text
+    subpackages:
+      - collate
+      - collate/build
+      - currency
+      - internal
+      - internal/colltab
+      - internal/format
+      - internal/gen
+      - internal/tag
+      - internal/triegen
+      - internal/ucd
+      - language
+      - secure/bidirule
+      - transform
+      - unicode/bidi
+      - unicode/cldr
+      - unicode/norm
+      - unicode/rangetable
+  - package: gopkg.in/yaml.v2
+  - package: github.com/rs/cors
+    version: ^1.0.0
+  - package: github.com/lib/pq
+    subpackages:
+      - oid
+  - package: github.com/coocood/freecache
+  - package: github.com/xojoc/useragent
+testImport:
+  - package: github.com/davecgh/go-spew
+    subpackages:
+      - spew
+  - package: github.com/erikstmartin/go-testdb
+  - package: github.com/stretchr/testify
+    version: ^1.1.4
+    subpackages:
+      - assert
+  - package: github.com/satori/go.uuid
+  - package: github.com/beorn7/perks
+    subpackages:
+      - quantile
+  - package: github.com/PubMatic-OpenWrap/etree
+  - package: github.com/gofrs/uuid
+  - package: github.com/asaskevich/govalidator

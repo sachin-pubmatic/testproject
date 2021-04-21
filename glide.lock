@@ -1,0 +1,197 @@
+hash: 597b32713bf31bcfe8214a1bb5a44709b5cd09bda7cf69c9fc3ff79c6b79d1fa
+updated: 2021-04-20T22:36:03.614079+05:30
+imports:
+- name: git.pubmatic.com/PubMatic/go-common
+  version: 4f7d7ad8abde55d4ebd02a553887a9b81cd142d8
+  vcs: git
+- name: github.com/blang/semver
+  version: 2ee87856327ba09384cabd113bc6b5d174e9ec0f
+- name: github.com/buger/jsonparser
+  version: f4dd9f5a6b441265aefc1d44872a6f8c10f42b37
+- name: github.com/cespare/xxhash
+  version: 5c37fe3735342a2e0d01c87a907579987c8936cc
+- name: github.com/chasex/glog
+  version: c62392af379ca40e0f383bdec8044ee25545c29f
+- name: github.com/coocood/freecache
+  version: f3233c8095b26cd0dea0b136b931708c05defa08
+- name: github.com/DATA-DOG/go-sqlmock
+  version: d76b18b42f285b792bf985118980ce9eacea9d10
+- name: github.com/evanphx/json-patch
+  version: f195058310bd062ea7c754a834f0ff43b4b63afb
+- name: github.com/fsnotify/fsnotify
+  version: c2828203cd70a50dcccfb2761f8b1f8ceef9a8e9
+- name: github.com/go-sql-driver/mysql
+  version: 72cd26f257d44c1114970e19afddcd812016007e
+- name: github.com/go-test/deep
+  version: 9898238679c264cfb10411539f14a0553dc8b295
+- name: github.com/golang/glog
+  version: 23def4e6c14b4da8ac2ed8007337bc5eb5007998
+- name: github.com/golang/protobuf
+  version: aa810b61a9c79d51363740d207bb46cf8e620ed5
+  subpackages:
+  - proto
+- name: github.com/hashicorp/hcl
+  version: 8cb6e5b959231cc1119e43259c4a608f9c51a241
+  subpackages:
+  - hcl/ast
+  - hcl/parser
+  - hcl/printer
+  - hcl/scanner
+  - hcl/strconv
+  - hcl/token
+  - json/parser
+  - json/scanner
+  - json/token
+- name: github.com/influxdata/influxdb
+  version: 5766854b95ae86cccf6cc8ffe4c5bb9eacc994b8
+  subpackages:
+  - client
+  - models
+  - pkg/escape
+- name: github.com/julienschmidt/httprouter
+  version: 8c199fb6259ffc1af525cc3ad52ee60ba8359669
+- name: github.com/lib/pq
+  version: 4ded0e9383f75c197b3a2aaa6d590ac52df6fd79
+  subpackages:
+  - oid
+- name: github.com/magiconair/properties
+  version: c2353362d570a7bfa228149c62842019201cfb71
+  subpackages:
+  - assert
+- name: github.com/mitchellh/mapstructure
+  version: fa473d140ef3c6adf42d6b391fe76707f1f243c8
+- name: github.com/mssola/user_agent
+  version: 85b2f5798558a46fc23443c596e781712f4b7792
+- name: github.com/patrickmn/go-cache
+  version: 5633e0862627c011927fa39556acae8b1f1df58a
+- name: github.com/pelletier/go-toml
+  version: c01d1270ff3e442a8a57cddc1c92dc1138598194
+- name: github.com/prebid/go-gdpr
+  version: 1ec04585275820c3d73910b92aa5218104b40505
+- name: github.com/prebid/prebid-server
+  version: f4cbe3036ea87b2ef49e80f04864055eae281130
+  repo: git@github.com:sachin-pubmatic/prebid-server.git
+  vcs: git
+- name: github.com/prometheus/client_golang
+  version: 77e8f2ddcfed59ece3a8151879efb2304b5cbbcf
+  subpackages:
+  - prometheus
+  - prometheus/promhttp
+- name: github.com/prometheus/client_model
+  version: 5c3871d89910bfb32f5fcab2aa4b9ec68e65a99f
+  subpackages:
+  - go
+- name: github.com/prometheus/common
+  version: c7de2306084e37d54b8be01f3541a8464345e9a5
+  subpackages:
+  - expfmt
+  - internal/bitbucket.org/ww/goautoneg
+  - model
+- name: github.com/prometheus/procfs
+  version: 05ee40e3a273f7245e8777337fc7b46e533a9a92
+  subpackages:
+  - internal/util
+  - nfs
+  - xfs
+- name: github.com/PubMatic-OpenWrap/openrtb
+  version: 16717e8089892059c5c53dbbc3912324198eac55
+  subpackages:
+  - native
+  - native/request
+- name: github.com/PubMatic-OpenWrap/prebid-server
+  version: f6b485cc4c8ab8e6c572789f7ebcc57537a1b3b0
+- name: github.com/rcrowley/go-metrics
+  version: e2704e165165ec55d062f5919b4b29494e9fa790
+- name: github.com/rs/cors
+  version: db0fe48135e83b5812a5a31be0eea66984b1b521
+- name: github.com/rs/vast
+  version: 06597a11a4c307c3a8fd9537dbf0876462aa7d59
+- name: github.com/sergi/go-diff
+  version: 1744e2970ca51c86172c8190fadad617561ed6e7
+  subpackages:
+  - diffmatchpatch
+- name: github.com/spf13/afero
+  version: 787d034dfe70e44075ccc060d346146ef53270ad
+  subpackages:
+  - mem
+- name: github.com/spf13/cast
+  version: 8965335b8c7107321228e3e3702cab9832751bac
+- name: github.com/spf13/jwalterweatherman
+  version: 14d3d4c518341bea657dd8a226f5121c0ff8c9f2
+- name: github.com/spf13/pflag
+  version: 9a97c102cda95a86cec2345a6f09f55a939babf5
+- name: github.com/spf13/viper
+  version: 907c19d40d9a6c9bb55f040ff4ae45271a4754b9
+- name: github.com/vrischmann/go-metrics-influxdb
+  version: 43af8332c303f62ef62663b02b3b7d8a9802002a
+- name: github.com/xeipuuv/gojsonpointer
+  version: 4e3ac2762d5f479393488629ee9370b50873b3a6
+- name: github.com/xeipuuv/gojsonreference
+  version: bd5ef7bd5415a7ac448318e64f11a24cd21e594b
+- name: github.com/xeipuuv/gojsonschema
+  version: da425ebb7609ba06a0f395fc8a254d1c303364a0
+- name: github.com/xojoc/useragent
+  version: 1ec61d55e8fe3c338f5e3dc0b77518344c67de8c
+- name: github.com/yudai/gojsondiff
+  version: 7b1b7adf999dab73a6eb02669c3d82dbb27a3dd6
+  subpackages:
+  - formatter
+- name: github.com/yudai/golcs
+  version: ecda9a501e8220fae3b4b600c3db4b0ba22cfc68
+- name: golang.org/x/net
+  version: 8a410e7b638dca158bf9e766925842f6651ff828
+  subpackages:
+  - publicsuffix
+- name: golang.org/x/sys
+  version: 4910a1d54f876d7b22162a85f4d066d3ee649450
+  subpackages:
+  - unix
+- name: golang.org/x/text
+  version: f21a4dfb5e38f5895301dc265a8def02365cc3d0
+  subpackages:
+  - collate
+  - collate/build
+  - currency
+  - internal
+  - internal/colltab
+  - internal/format
+  - internal/gen
+  - internal/tag
+  - internal/triegen
+  - internal/ucd
+  - language
+  - secure/bidirule
+  - transform
+  - unicode/bidi
+  - unicode/cldr
+  - unicode/norm
+  - unicode/rangetable
+- name: gopkg.in/gcfg.v1
+  version: 27e4946190b4a327b539185f2b5b1f7c84730728
+- name: gopkg.in/warnings.v0
+  version: 8a331561fe74dadba6edfc59f3be66c22c3b065d
+- name: gopkg.in/yaml.v2
+  version: 5420a8b6744d3b0345ab293f6fcba19c978f1183
+testImports:
+- name: github.com/asaskevich/govalidator
+  version: f9ffefc3facfbe0caee3fea233cbb6e8208f4541
+- name: github.com/beorn7/perks
+  version: 3a771d992973f24aa725d07868b467d1ddfceafb
+  subpackages:
+  - quantile
+- name: github.com/davecgh/go-spew
+  version: 8991bc29aa16c548c550c7ff78260e27b9ab7c73
+  subpackages:
+  - spew
+- name: github.com/erikstmartin/go-testdb
+  version: 8d10e4a1bae52cd8b81ffdec3445890d6dccab3d
+- name: github.com/gofrs/uuid
+  version: 6b08a5c5172ba18946672b49749cde22873dd7c2
+- name: github.com/PubMatic-OpenWrap/etree
+  version: 8f30cfecf9f45cbc8d8f5eed9aecf0dca365e112
+- name: github.com/satori/go.uuid
+  version: f58768cc1a7a7e77a3bd49e98cdd21419399b6a3
+- name: github.com/stretchr/testify
+  version: acba37e5db06f0093b465a7d47822bf13644b66c
+  subpackages:
+  - assert
